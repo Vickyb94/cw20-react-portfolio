@@ -1,7 +1,7 @@
 
 import React from 'react';
 //import icons
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -9,20 +9,20 @@ const Footer = () => {
         <div className="social">
             <a  href="https://github.com/Vickyb94">
               <FaGithub  
-                 size={30}
-                 style={{ color: "#fff",
+                 size={20}
+                 style={{ color: "rgb(223, 116, 77)",
                  marginRight: "1rem"}}/>
             </a>
             <a href="https://www.linkedin.com/in/victoria-developer/">
                 <FaLinkedin
-                    size={30}
-                    style={{ color: "#fff",
+                    size={20}
+                    style={{ color: "rgb(223, 116, 77)",
                     marginRight: "1rem"}}/>
                </a>
             <a href="https://twitter.com/eji_row">
                <FaTwitter
-                  size={30}
-                  style={{ color: "#fff",
+                  size={20}
+                  style={{ color: "rgb(223, 116, 77)",
                   marginRight: "1rem"}}/>
             </a>
         </div>

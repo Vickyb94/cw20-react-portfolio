@@ -8,7 +8,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/*navtab styling*/
 .nav-container{
   display: flex;
   justify-content: space-between;
@@ -35,4 +35,23 @@ code {
 .nav-bar li a {
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+/*footer styling*/
+.footer {
+  padding: 1 rem 0;
+  background-color: rgb(7, 92, 92);
+  margin-top: 50%;
+}
+
+.social {
+  display: flex;
+  margin-left: 50%;
+}
+
+.copyright {
+  display: flex;
+  margin-left: 50%;
+  margin-top: 1%;
+  color: rgb(223, 116, 77);
 }
