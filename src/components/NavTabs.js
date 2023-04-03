@@ -3,7 +3,9 @@ import React from 'react';
 //assign variable names
 function NavTabs ({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav nav-bar">
+        <div className="nav-container">
+            <h1>Victoria Arowosafe</h1>
+        <ul className="nav-bar">
             <li className="nav-item">
                 <a href="#about" onClick={() => handlePageChange('About')}
                 className={currentPage === 'About' ? 'nav-link active'  : 'nav-link'}>
@@ -29,6 +31,7 @@ function NavTabs ({ currentPage, handlePageChange }) {
                 </a>
             </li>
         </ul>
+    </div>
     );
 }
 
