@@ -55,3 +55,54 @@ code {
   margin-top: 1%;
   color: rgb(223, 116, 77);
 }
+
+/*styling about*/
+.about {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-wrap: wrap;
+  height: 100;
+  background-color: rgb(223, 116, 77);
+  color: rgb(7, 92, 92);
+  
+}
+
+.about .left {
+  text-align: left;
+  margin-left: 20%;
+  padding: 1 rem;
+  max-width: 350px;
+}
+
+.about h1 {
+  font-size: 60px;
+  color: bisque;
+}
+.about .left p {
+  margin: 1.2rem 0;
+  font-size: 150%;
+}
+
+.about .right {
+  max-width: 250px;
+}
+
+.right .img-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.right .img {
+  width: 120%;
+  border: 1px solid rgb(223, 116, 77);
+  grid-column: 4 / -1;
+  grid-row: 1;
+  z-index: 5;
+  margin-right: 30%;
+}
