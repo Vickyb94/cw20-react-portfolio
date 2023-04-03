@@ -1,13 +1,13 @@
 
 import React from 'react';
-import Header from './components/pages/Header';
-import Footer from './components/pages/Footer';
+import Header from "./Header";
+import Footer from './Footer';
 
 function App() {
   return (
     <div>
-      <Header></Header>
-      <Footer></Footer>
+      <h1>This is my Portfolio</h1>
+    
     </div>
   );
 }

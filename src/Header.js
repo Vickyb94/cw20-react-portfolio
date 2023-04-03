@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
+import NavTabs from './components/pages/NavTabs';
+import About from './components/pages/About';
+import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 export default function Header() {
     const [currentPage, setCurrentPage] = useState('Home');
