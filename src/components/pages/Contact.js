@@ -1,4 +1,6 @@
 import React, { useState }from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+import { validateEmail } from '.'
 
 function Contact () {
     const
