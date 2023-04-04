@@ -10,7 +10,7 @@ User needs to download the code source from repo - https://github.com/Vickyb94/c
 ## Usage
 User needs to download the code source from repo - https://github.com/Vickyb94/cw20-react-portfolio and install dependencies by running npm install in the terminal. Then user runs nmp start and the app loads on the live server. User can then navigate through the different pages. There is a navigation bar that goes to corresponding sections when clicked on. There is a reume button that downloads a pdf file to view my past experiences.
 
-Deployed Website Url: 
+Deployed Website Url: https://vickyb94.github.io/cw20-react-portfolio/
 Github Repo: https://github.com/Vickyb94/cw20-react-portfolio
 
 ![alt text](/src/assets/aboutpage.png)
