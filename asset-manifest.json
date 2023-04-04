@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cw20-react-portfolio/static/css/main.e9381e1b.css",
+    "main.js": "/cw20-react-portfolio/static/js/main.1d7f7ee9.js",
+    "static/js/787.7ca57fa2.chunk.js": "/cw20-react-portfolio/static/js/787.7ca57fa2.chunk.js",
+    "static/media/avatar.png": "/cw20-react-portfolio/static/media/avatar.47edb0e4eea34dcd3734.png",
+    "static/media/portfolio-website.png": "/cw20-react-portfolio/static/media/portfolio-website.ec895c886a2835839248.png",
+    "static/media/FIFA-Fever.png": "/cw20-react-portfolio/static/media/FIFA-Fever.f4d83c51ee5a0db44aab.png",
+    "static/media/CodeCollab.png": "/cw20-react-portfolio/static/media/CodeCollab.de1c5e61e7f1ebfc78e1.png",
+    "static/media/weather-app.png": "/cw20-react-portfolio/static/media/weather-app.106d7c9fc253d7160aec.png",
+    "static/media/prework-guide.png": "/cw20-react-portfolio/static/media/prework-guide.aa66c582a3d0246b5329.png",
+    "static/media/calendar-app.png": "/cw20-react-portfolio/static/media/calendar-app.a8eb17408a226411bac9.png",
+    "index.html": "/cw20-react-portfolio/index.html",
+    "main.e9381e1b.css.map": "/cw20-react-portfolio/static/css/main.e9381e1b.css.map",
+    "main.1d7f7ee9.js.map": "/cw20-react-portfolio/static/js/main.1d7f7ee9.js.map",
+    "787.7ca57fa2.chunk.js.map": "/cw20-react-portfolio/static/js/787.7ca57fa2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9381e1b.css",
+    "static/js/main.1d7f7ee9.js"
+  ]
+}
