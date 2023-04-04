@@ -1,22 +1,7 @@
-import React, { useState }from 'react';
-import { useForm, ValidationError } from '@formspree/react';
-import { validateEmail } from '../utils/helpers';
 
-require('dotenv').config()
+import React from 'react';
 
-function Contact () {
-    const
-
-
-
-
-
-
-
-
-
-
-
+const Contact = () => {
   return (
     <div className='contact-box'>
         <div className='contact-hero'>

@@ -106,3 +106,47 @@ code {
   z-index: 5;
   margin-right: 30%;
 }
+
+.contact-box {
+  background-color: rgb(223, 116, 77);
+}
+
+.contact-hero h1 {
+  color: bisque;
+  margin-left: 30%;
+}
+
+.contact-hero p{
+  color: bisque;
+  margin-left: 30%;
+  font-size: 120%;
+ 
+}
+
+
+label{
+  color: bisque;
+  margin-bottom: 0.2rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 1 rem;
+  margin: auto;
+  max-width: 600px;
+
+}
+
+form input, form textarea{
+  margin-bottom: 1rem;
+  padding: 10px, 18px;
+  font-size: 1.2rem;
+  background-color: rgb(7, 92, 92);
+  color:bisque;
+}
+
+form .btn {
+  background-color: rgb(7, 92, 92);
+  color: bisque;
+}
