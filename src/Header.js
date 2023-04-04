@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './components/pages/NavTabs';
+import NavTabs from './components/NavTabs';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
@@ -19,7 +19,10 @@ export default function Header() {
     if (currentPage === 'Contact') {
         return <Contact />;
     }
-    return <Resume />;
+    if (currentPage === 'Resume') {
+        return <Resume />;
+    }
+    return <About />;
    };
 
    const handlePageChange = (page) => setCurrentPage(page);

@@ -58,23 +58,16 @@ code {
 
 /*styling about*/
 .about {
-  width: 100%;
-  margin: 3rem 0;
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  flex-wrap: wrap;
-  height: 100;
   background-color: rgb(223, 116, 77);
-  color: rgb(7, 92, 92);
-  
 }
 
-.about .left {
+
+.about .right {
   text-align: left;
   margin-left: 20%;
   padding: 1 rem;
   max-width: 350px;
+  color: rgb(7, 92, 92);
 }
 
 .about h1 {
@@ -90,13 +83,6 @@ code {
   max-width: 250px;
 }
 
-.right .img-container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  position: relative;
-  align-items: center;
-  text-align: center;
-}
 
 .right .img {
   width: 120%;
@@ -104,7 +90,10 @@ code {
   grid-column: 4 / -1;
   grid-row: 1;
   z-index: 5;
-  margin-right: 30%;
+  margin-bottom: 10%;
+  margin-left: 50%;
+  justify-content: right;
+  align-items: right;
 }
 
 /*styling contact form*/
@@ -150,6 +139,7 @@ form input, form textarea{
 form .btn {
   background-color: rgb(7, 92, 92);
   color: bisque;
+  margin-bottom: 10%;
 }
 
 /*styling portfolio*/
@@ -195,9 +185,8 @@ form .btn {
 }
 
 .resume-container {
-  background-color: rgb(7, 92, 92);
+  background-color: rgb(223, 116, 77);
   width: 100%; 
-  display: flex; 
 }
 
 .resume {
@@ -207,15 +196,17 @@ form .btn {
 
 .resume-container .btn {
   padding: 0.5rem 0;
-  margin-top: 15%;
-  margin-bottom: 5%;
-  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 50%;
   height: 10vh;
+  justify-content: right;
+  align-items: right;
 
 }
 
 .resume-container .btn {
-  background-color: rgb(223, 116, 77);
+  background-color: rgb(7, 92, 92);
   color: bisque;
   }
 
