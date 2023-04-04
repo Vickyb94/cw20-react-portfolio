@@ -41,7 +41,7 @@ code {
 .footer {
   padding: 1 rem 0;
   background-color: rgb(7, 92, 92);
-  margin-top: 50%;
+
 }
 
 .social {
@@ -107,6 +107,7 @@ code {
   margin-right: 30%;
 }
 
+/*styling contact form*/
 .contact-box {
   background-color: rgb(223, 116, 77);
 }
@@ -150,3 +151,47 @@ form .btn {
   background-color: rgb(7, 92, 92);
   color: bisque;
 }
+
+/*styling portfolio*/
+.work-container {
+  background-color: rgb(223, 116, 77);
+}
+.project-heading {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+  color: bisque;
+}
+
+.project-card{
+  margin-left: 25%;
+}
+.project-card img {
+  width: 70%;
+}
+
+.project-title {
+  color: bisque;
+  padding: 1rem 0;
+  font-size: 120%;
+}
+.project-details p {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+  font-size: 100%;
+  color: bisque;
+}
+
+.pro-btns {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 0.5rem;
+  
+}
+
+.pro-btns .btn {
+  background-color: rgb(7, 92, 92);
+  color: bisque;
+}
+
+

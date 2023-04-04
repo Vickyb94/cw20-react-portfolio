@@ -2,14 +2,16 @@
 import React from 'react';
 import NavTab from './components/NavTabs';
 import Footer from './Footer';
-import Portfolio from './components/pages/Portfolio';
+//import About from './components/pages/About';
+//import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 
 function App() {
   return (
     <div>
       <NavTab />
-      <Portfolio />
+      <Resume />
       <Footer />
       
     
