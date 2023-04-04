@@ -1,6 +1,8 @@
 import React, { useState }from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import { validateEmail } from '.'
+import { validateEmail } from '../utils/helpers';
+
+require('dotenv').config()
 
 function Contact () {
     const
