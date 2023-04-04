@@ -194,4 +194,28 @@ form .btn {
   color: bisque;
 }
 
+.resume-container {
+  background-color: rgb(7, 92, 92);
+  width: 100%; 
+  display: flex; 
+}
+
+.resume {
+  margin-left: 25%;
+  color: bisque;
+}
+
+.resume-container .btn {
+  padding: 0.5rem 0;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  height: 10vh;
+
+}
+
+.resume-container .btn {
+  background-color: rgb(223, 116, 77);
+  color: bisque;
+  }
 
