@@ -5,7 +5,7 @@ import CodeCollab from '../assets/CodeCollab.png';
 import CalendarApp from '../assets/calendar-app.png';
 import FifaFever from '../assets/FIFA-Fever.png';
 import PortWeb from '../assets/portfolio-website.png';
-import WeatherApp from '../assets/weather-app.png';
+import Eventflow from '../assets/eventflow';
 import PreworkGuide from '../assets/prework-guide.png';
 
 
@@ -60,13 +60,13 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="project-card">
-                <img src={WeatherApp} alt=""/>
-                <h2 className="project-title">Weather-App</h2>
+                <img src={Eventflow} alt=""/>
+                <h2 className="project-title">Event-Flow</h2>
                <div className="project-details">
-                  <p>A website designed to retrieve weather data for cities. </p>
+                  <p>Event flow is an interactive MERN Stack Single-Page Application designed to enable users create events and invite other users. </p>
                   <div className="pro-btns">
-                     <a href="https://vickyb94.github.io/cw6-weather-app/" className="btn">View</a>
-                     <a href="https://github.com/Vickyb94/cw6-weather-app" className="btn">Source</a>
+                     <a href="https://project-eventflow.herokuapp.com/" className="btn">View</a>
+                     <a href="https://github.com/Vickyb94/Event-Flow" className="btn">Source</a>
                   </div>
                 </div>
             </div>
